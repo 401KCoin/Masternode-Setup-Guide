@@ -1,5 +1,5 @@
 ![401K-Logo](https://cdn.discordapp.com/attachments/458103699118751744/486098694220021761/401kcoin-mn-logo.png)
-# Rhenium Masternode Setup Guide (Ubuntu 16.04)
+# 401KCoin Masternode Setup Guide (Ubuntu 16.04)
 This guide will assist you in setting up a 401KCoin Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/nEpVwhq)
@@ -105,7 +105,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 7***
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 
-`wget -q https://raw.githubusercontent.com/Brew-master/Rhenium/master/rhenium_install.sh`
+`wget https://raw.githubusercontent.com/401KCoin/Script/master/setup.sh`
 ***
 
 ***Step 8***
