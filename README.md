@@ -44,7 +44,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 6*** 
 * Set a Server Hostname & Label (name it whatever you want)
-![Example-hostname](https://i.imgur.com/YAso8lD.png)
+![Example-hostname](https://i.imgur.com/3CKNAmi.png)
 ***
 
 ***Step 7***
@@ -80,7 +80,8 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 3*** 
-* Once you have clicked open it will open a security alert (click yes).  
+* Once you have clicked open it will open a security alert (click "Accept and Save").  
+![Example-SecurityAlert](https://i.imgur.com/e086wNy.png)
 ***
 
 
@@ -99,19 +100,20 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 6*** 
 * Paste the password into the Bitvise terminal by right clicking (it will not show the password so just press enter)
-![Example-RootPassEnter](https://i.imgur.com/34Qky1K.png)
+![Example-RootPassEnter](https://i.imgur.com/eoI5qeC.png)
 ***
 
 ***Step 7***
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 
 `wget https://raw.githubusercontent.com/401KCoin/Script/master/setup.sh`
+`chmod 755 setup.sh`
 ***
 
 ***Step 8***
 * Paste the code below into the putty terminal then press enter
 
-`bash rhenium_install.sh`
+`./setup.sh`
 
 ![Example-Bash](https://i.imgur.com/xSEwlCT.png)
 
