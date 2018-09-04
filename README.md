@@ -112,7 +112,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 8***
-* Paste the code below into the putty terminal then press enter
+* Paste the code below into the Bitvise terminal then press enter
 
 `./setup.sh`
 
@@ -130,13 +130,18 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 10***
 * When prompted to enter your private key - press enter
 
-![Example-installing](https://i.imgur.com/cDEt7cX.png)
+![Example-installing](https://i.imgur.com/YgcC2H8.png)
 ***
 
 ***Step 11***
-* You will now see all of the relavant information for your server.
+* You will now see masternode script is finished.
+* Paste the code below into the Bitvise terminal then press enter
+
+`401kcoind`
+
+* You will see 401kcoin server is starting
 * Keep this terminal open as we will need the info for the wallet setup.
-![Example-installing](https://i.imgur.com/GLOf7DQ.png)
+![Example-installing](https://i.imgur.com/PmJx0Nz.png)
 ***
 
 
@@ -184,8 +189,8 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 * Fill in the form. 
 * For `Alias` type something like "MN01" **don't use spaces**
-* The `Address` is the IP and port of your server (this will be in the putty terminal that you still have open).
-* The `PrivKey` is your masternode private key (This is also in the putty terminal that you have open).
+* The `Address` is the IP and port of your server (this will be in the Bitvise terminal that you still have open).
+* The `PrivKey` is your masternode private key (This is also in the Bitvise terminal that you have open).
 * The `TxHash` is the transaction ID/long key that you copied to the text file.
 * The `Output Index` is the 0 or 1 that you copied to your text file.
 ![Example-create](https://i.imgur.com/EUCAzL1.png)
