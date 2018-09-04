@@ -104,9 +104,10 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 7***
-* Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
+* Paste the codes below into the Bitvise terminal then press enter (it will just go to a new line)
 
 `wget https://raw.githubusercontent.com/401KCoin/Script/master/setup.sh`
+
 `chmod 755 setup.sh`
 ***
 
@@ -115,12 +116,15 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 `./setup.sh`
 
-![Example-Bash](https://i.imgur.com/xSEwlCT.png)
+![Example-Bash](https://i.imgur.com/aMOYfoi.png)
 
 ***
 
 ***Step 9***
-* Sit back and wait for the install (this will take 10-20 mins)
+* Press "y" to install all needed dependencies (this will take 5-10 mins)
+* If some alert dialogs should be appeared, press "Enter"
+
+![Example-installing](https://i.imgur.com/f0B7vV7.png)
 ***
 
 ***Step 10***
