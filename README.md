@@ -75,8 +75,8 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 2***
-* Open the bitvise application and fill in the "Hostname" box with the IP of your VPS then click "Open"
-![Example-PuttyInstaller](https://i.imgur.com/0mYd1dH.png)
+* Open the bitvise application and fill in the "Hostname" box with the IP of your VPS then click "Login"
+![Example-PuttyInstaller](https://i.imgur.com/YFnQYX2.png)
 ***
 
 ***Step 3*** 
@@ -87,7 +87,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 4***
 * Type "root" as the login/username then press enter 
 
-![Example-Root](https://i.imgur.com/TLfAIPw.png)
+![Example-Root](https://i.imgur.com/lXMKyov.png)
 ***
 
 ***Step 5***
