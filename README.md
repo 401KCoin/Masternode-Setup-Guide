@@ -128,12 +128,30 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 10***
-* When prompted to enter your private key - press enter
+* Download and install the 401KCoin wallet [here](https://github.com/401KCoin/401KCoin/releases)
+***
+
+***step 11***
+* Go to the console within the wallet 
+
+![Example-console](https://i.imgur.com/sjvPgjj.png)
+***
+
+***Step 12***
+* Type the command below and press enter 
+
+`masternode genkey` 
+
+![Example-outputs](https://i.imgur.com/C2Uwwld.png)
+***
+
+***Step 13***
+* When prompted to enter your private key - press enter (Reference Section D - Step 7)
 
 ![Example-installing](https://i.imgur.com/YgcC2H8.png)
 ***
 
-***Step 11***
+***Step 14***
 * You will now see masternode script is finished.
 * Paste the code below into the Bitvise terminal then press enter
 
@@ -148,21 +166,18 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the 401KCoin wallet [here](https://github.com/401KCoin/401KCoin/releases)
+* Send EXACLY 5,000 (401K) to a receive address within your wallet.
+* It will take some minutes to confirm transaction.
 ***
 
 ***Step 2***
-* Send EXACLY 5,000 (401K) to a receive address within your wallet.
-***
-
-***Step 3***
 * Create a text document to temporarily store information that you will need. 
 ***
 
 ***step 4***
 * Go to the console within the wallet 
 
-![Example-console](https://i.imgur.com/ih8krzE.png)
+![Example-console](https://i.imgur.com/sjvPgjj.png)
 ***
 
 ***Step 5***
@@ -170,19 +185,19 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 `masternode outputs` 
 
-![Example-outputs](https://i.imgur.com/SbkgUmp.png)
+![Example-outputs](https://i.imgur.com/dylp0Oy.png)
 ***
 
 ***Step 6***
-* Copy the long key (this is your transaction ID) and the 1, 0 or 2 at the end (this is your output index)
+* Copy the long key (this is your transaction ID) and the 0 or 1 at the end (this is your output index)
 * Paste these into the text document you created earlier as you will need them in the next step.
 ***
 
 # Section E: Connecting & Starting the masternode 
 
 ***Step 1***
-* Go to the tools tab within the wallet and click open "masternode configuration file" 
-![Example-create](https://i.imgur.com/M1KDC26.png)
+* Go to the tools tab within the wallet and click "Open Masternode Configuration File" 
+![Example-create](https://i.imgur.com/x9rH3x6.png)
 ***
 
 ***Step 2***
@@ -193,14 +208,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 * The `PrivKey` is your masternode private key (This is also in the Bitvise terminal that you have open).
 * The `TxHash` is the transaction ID/long key that you copied to the text file.
 * The `Output Index` is the 0 or 1 that you copied to your text file.
-![Example-create](https://i.imgur.com/EUCAzL1.png)
+![Example-create](https://i.imgur.com/rAtaOA0.png)
 
 Click "File Save"
 ***
 
 ***Step 3***
 * Close out of the wallet and reopen Wallet
-* Click on the Masternodes tab "My masternodes"
+* Click on the Masternodes tab "Masternodes"
 * Click start all in the masternodes tab
 ***
 
@@ -209,7 +224,8 @@ Click "File Save"
 
 `401kcoin-cli masternode status`
 
-*You should see ***status 4**
+*You should see **status**
+![Example-create](https://i.imgur.com/kmbVHPy.png)
 
-If you do, congratulations! You have now setup a masternode. If you do not, please contact me or any other support.  
+If you do, congratulations! You have now setup a masternode. If you do not, please contact the support team @ [Discord](https://discord.gg/nEpVwhq)
 ***
