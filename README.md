@@ -146,7 +146,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 13***
-* When prompted to enter your private key - press enter (Reference Section D - Step 7)
+* When prompted to enter your private key that you got from ***Step 12*** - press enter
 
 ![Example-installing](https://i.imgur.com/YgcC2H8.png)
 ***
